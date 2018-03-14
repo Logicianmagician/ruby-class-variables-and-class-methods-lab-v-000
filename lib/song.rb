@@ -18,7 +18,7 @@ class Song
   end
 
   def self.artists
-    @@artists.reject{|c| c != c}
+    @@artists.uniq 
   end
 
 end

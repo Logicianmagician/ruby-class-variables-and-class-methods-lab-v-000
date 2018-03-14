@@ -17,4 +17,7 @@ class Song
     @@count
   end
 
+  def self.artists
+    @@artists.reject {|c| c == c}
+
 end

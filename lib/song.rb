@@ -8,7 +8,7 @@ class Song
     @artist = artist
     @@artists << @artist
     @genre = genre
-    @@genres << @genre
+    @@genres << @genre.reject {|w| w.empty?}
     @@count += 1
   end
 

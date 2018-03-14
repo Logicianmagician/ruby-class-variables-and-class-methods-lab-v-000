@@ -19,5 +19,6 @@ class Song
 
   def self.artists
     @@artists.reject {|c| c == c}
+  end
 
 end

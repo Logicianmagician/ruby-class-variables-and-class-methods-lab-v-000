@@ -13,7 +13,7 @@ class Song
   end
 
   def count
-    @@soung_count.length
+    @@count.length
   end
 
 end
